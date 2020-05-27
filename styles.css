@@ -19,6 +19,7 @@ p {
 
 /* Header Section */
 
+
 header nav {
   display: flex;
   justify-content: center;
@@ -29,8 +30,8 @@ header nav ul {
   flex-direction: row;
   list-style: none;
   flex-wrap: wrap;
-  padding-bottom: 0;
   font-size: 14px;
+  padding: 0px;
 }
 
 header nav ul li {
@@ -60,11 +61,11 @@ h1 {
 }
 
 
-
 /* Services Section */
 
 h2 {
   text-align: center;
+  padding-top: 20px;
 }
 
 .services {
@@ -141,11 +142,18 @@ a:visited { color: #474747; }
 a:hover { color: #fff; }
 a:active { color: #fff; }
 
+
+
+/* Mobile */
+
 @media all and (max-width: 700px) {
 
   .portfolio {
     flex-direction: column;
   }
 
+  .services {
+    flex-direction: column;
+  }
 
 }
