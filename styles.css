@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,400;1,200;1,400&display=swap');
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #474747;
+  text-transform: uppercase;
+  letter-spacing: 4.0px;
+}
+
+p {
+  font-size: 14px;
+}
+
+
+/* Header Section */
+
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  flex-wrap: wrap;
+  padding-bottom: 0;
+  font-size: 14px;
+}
+
+header nav ul li {
+  margin: 10px;
+  padding: 5px;
+}
+
+/* Intro Section */
+
+h1 {
+  font-size: 26px;
+}
+
+.intro img {
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  background-color: #f8f8ff;
+  border: 1px solid #eeeef5
+}
+
+
+
+/* Services Section */
+
+h2 {
+  text-align: center;
+}
+
+.services {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: left;
+}
+
+.serviceitem {
+  flex: 1;
+  margin: 10px 10px;
+  padding: 10px 10px;
+}
+
+
+/* Portfolio Section */
+
+.portfolio {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  text-align: center;
+  background-color: #f8f8ff;
+}
+
+.portfolioitem {
+  flex: 1;
+  margin: 20px 10px;
+  padding: 10px 10px;
+}
+/* CHANGE ITEM ^ TO COLUMN FOR MEDIA!!! */
+
+
+/* About Section */
+
+.about {
+  text-align: center;
+  margin: 20px 80px;
+  padding: 10px 10px;
+}
+
+.contact {
+  display: flex;
+  background-color: #f8f8ff;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.websites {
+  display: inline;
+  margin: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+/* Footer Section */
+
+.footer {
+  display: inline;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link { color: #474747; }
+a:visited { color: #474747; }
+a:hover { color: #fff; }
+a:active { color: #fff; }
+
+@media all and (max-width: 700px) {
+
+  .portfolio {
+    flex-direction: column;
+  }
+
+
+}
