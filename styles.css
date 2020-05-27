@@ -2,6 +2,9 @@
 
 * {
   scroll-behavior: smooth;
+  /* padding: 0;
+  margin: 0;
+  box-sizing: border-box; */
 }
 
 body {
@@ -101,7 +104,7 @@ h2 {
 /* CHANGE ITEM ^ TO COLUMN FOR MEDIA!!! */
 
 
-/* About Section */
+/* About Me/Contact Section */
 
 .about {
   text-align: center;
@@ -118,6 +121,36 @@ h2 {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+/* Form Section */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.item {
+  flex: 2;
+  margin: 10px;
+}
+
+form {
+  width: 20rem;
+  margin: auto;
+}
+
+form input, 
+form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form textarea {
+  height: 160px;
+}
+
+/* Website Section */
 
 .websites {
   display: inline;
