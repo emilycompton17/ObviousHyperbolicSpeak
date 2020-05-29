@@ -101,6 +101,10 @@ h2 {
   margin: 20px 10px;
   padding: 10px 10px;
 }
+
+.portfolioitem img {
+  width: 100%;
+}
 /* CHANGE ITEM ^ TO COLUMN FOR MEDIA!!! */
 
 
@@ -187,6 +191,10 @@ a:active { color: #fff; }
 
   .services {
     flex-direction: column;
+  }
+
+  .contact {
+    flex-wrap: wrap;
   }
 
 }
