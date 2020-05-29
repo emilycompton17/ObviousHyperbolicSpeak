@@ -154,6 +154,13 @@ form textarea {
   height: 160px;
 }
 
+button {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #474747;
+  text-transform: uppercase;
+  letter-spacing: 4.0px;
+}
+
 /* Website Section */
 
 .websites {
